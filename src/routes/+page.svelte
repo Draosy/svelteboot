@@ -41,11 +41,4 @@
         margin-top: 3%;
         margin-bottom: 3%;
     }
-    a {
-        text-align: center;
-        display:block;
-        font-family: kanit;
-        font-size: 400%;
-        padding-bottom: 5dvi;
-    }
 </style>
