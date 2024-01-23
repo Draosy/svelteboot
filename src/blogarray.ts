@@ -7,6 +7,7 @@ export type Bloginfo = {
   };
 export const blogs: Bloginfo[] = [
     {
+        
         title: 'Blog 1',
         date: 'June 9, 2021',
         image: 'reynapose.png',
