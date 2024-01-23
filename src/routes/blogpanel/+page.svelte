@@ -1,8 +1,38 @@
 <script lang="ts">
     import Page from '../+page.svelte';
   import Blog from '../components/Blog.svelte';
+  import ScBlog from '../../database/blogSchema';
   import {blogs} from '../../blogarray';
+  // import { onMount, onDestroy } from 'svelte';
+  // import { connect, disconnect, cli } from '../../helpers/test';
+  // import { disconnect } from 'mongoose';
+
+  // onMount(async () => {
+  //   await connect();
+
+  //   const db = cli.db('BlogsDB');
+  //   const col = db.collection('Blogs');
+  //   console.log('Docs:', col);
+
+  // });
+
+  // onDestroy(() => {
+  //   disconnect();
+  // });
+
+    // import connectDB from '../../helpers/db';
     let active = 'one'
+    // async function getBlogs() {
+    //   await connectDB() // function from db.ts before
+    //   try {
+    //             // query for all blogs and sort by date
+    //             const bls = await ScBlog.find().sort({ date: -1 }).orFail()
+    //             // send a response as the blogs as the message
+    //              return bls
+    //             } catch (err) {
+    //                return null
+    //               }
+    //       }
 </script>
 
 <main>

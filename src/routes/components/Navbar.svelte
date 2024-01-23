@@ -15,6 +15,9 @@
         <li>
             <a href = "/blog3"> Blog 3 </a>
         </li>
+        <li>
+            <a href = "/mongoData"> Mongo Data </a>
+        </li>
     </ul>
 </body>
 
